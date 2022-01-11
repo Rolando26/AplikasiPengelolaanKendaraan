@@ -98,7 +98,7 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`user_id`, `username`, `password`, `fullname`, `email`, `alamat`, `no_hp`, `level`, `gambar`) VALUES
-(4, 'Rolando', '612674', 'Rolando', 'andostanding@gmail.com', 'Dadap', '081282498758', 'admin', '../admin/gambar_admin/annonymous.jpg'),
+(4, 'Rolando', '123456', 'Rolando', 'ando@gmail.com', 'Dadap', '081292819231', 'admin', '../admin/gambar_admin/annonymous.jpg'),
 (5, 'Parlan', 'parlan123', 'Parlan', 'parlan@gmail.com', 'Rusun Cinta Kasih Tzu Chi ', '123123', 'admin', '../admin/gambar_admin/tzuchi-logo.jpg'),
 (6, 'user', 'user', 'user', '-', '-', '-', 'user', '../admin/gambar_admin/tzuchi-logo.jpg');
 
