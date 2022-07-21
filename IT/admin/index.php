@@ -193,7 +193,6 @@ if($_SESSION['level']!="admin"){
                         <th><center>Jenis Mobil</center></th>
                         <th><center>Waktu Awal</center></th>
                         <th><center>Waktu Akhir</center></th>
-                        <th><center>Keterangan</center></th>
 
 
                         <?php  
@@ -212,9 +211,6 @@ if($_SESSION['level']!="admin"){
                      <td>".$rews['jenismobil']."</td>
                      <td>".$rows['waktuawal']."</td>
                      <td>".$rows['waktuakhir']."</td>
-                     <td>".$rows['keterangan']."</td>
-                    
-                 
                   
                   </tr>";   $nomorgan++;
                 }
